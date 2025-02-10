@@ -38,7 +38,7 @@ class GPTChatModel(LanguageModels):
             api_flag = False
             try:
                 completion = self.gpt.chat.completions.create(
-                    model=self.model_name,  # gpt-4-0125-preview
+                    model=self.model_name,
                     messages=prompt,
                     temperature=self.temperature,
                     max_tokens=self.max_new_tokens
@@ -76,7 +76,6 @@ class ClaudeModel(LanguageModels):
         self.err_cnt = 0
         
     def completion(self, prompt: list) -> LLMResponse:
-        system_prompt = prompt.pop(0)  # the only difference
         while True:
             api_flag = False
             try:
@@ -182,7 +181,6 @@ class O1Model(LanguageModels):
         self.model = OpenAI()
     
     def completion(self, prompt: list) -> LLMResponse:
-        # prompt[0]['role'] = 'developer'
         system_message = prompt[0]['content']
         prompt.pop(0)
         prompt[0]['content'] = f"{system_message}\n\n" + prompt[0]['content']
