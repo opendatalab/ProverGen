@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Priscilla does not inspire environmental awareness.",
+    "reasoning": "fact1: Priscilla has an urban focus.\nrule: If Priscilla has an urban focus, then she will portray cityscapes.\nconclusion: Priscilla portrays cityscapes.\n\nfact1: Priscilla portrays cityscapes.\nrule: Priscilla either portrays cityscapes or captures sunsets, but not both.\nconclusion: Priscilla does not capture sunsets.\n\nfact1: Priscilla documents wildlife.\nfact2: Priscilla does not capture sunsets.\nrule: Everyone who either documents wildlife or captures sunsets (but not both) shares beautiful images.\nconclusion: Priscilla shares beautiful images.\n\nfact1: Priscilla shares beautiful images.\nrule: If Priscilla loves nature or shares beautiful images (or both), then she inspires environmental awareness.\nconclusion: Priscilla inspires environmental awareness.\n\nTherefore, it is false that Priscilla does not inspire environmental awareness. The correct option is: B.",
+    "context": "If Priscilla loves nature or shares beautiful images (or both), then she inspires environmental awareness. Priscilla either portrays cityscapes or captures sunsets, but not both. Priscilla documents wildlife. If Priscilla has an urban focus, then she will portray cityscapes. If Priscilla travels extensively, then she either takes landscape photos or captures sunsets (or both). Priscilla has an urban focus. Everyone who either documents wildlife or captures sunsets (but not both) shares beautiful images."
+  },
+  {
+    "id": 1,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Keily is selfish.",
+    "reasoning": "fact1: Keily helps others.\nfact2: Keily does not share her resources.\nrule: If Keily either helps others or shares resources (but not both), then she is community-oriented.\nconclusion: Keily is community-oriented.\n\nfact1: Keily is community-oriented.\nrule: If Keily is community-oriented and willing to learn, then she is generous.\nconclusion: Keily is generous.\n\nfact1: Keily is generous.\nrule: Keily is either generous or selfish, but not both.\nconclusion: Keily is not selfish.\n\nTherefore, it is false that Keily is selfish. The correct option is: B.",
+    "context": "If Keily either helps others or shares resources (but not both), then she is community-oriented. Maleah is either generous or selfish, but not both. Keily is either generous or selfish, but not both. If Keily is philanthropic, then she is either generous or frugal, but not both. Keily helps others. If Ryleigh is community-oriented and willing to learn, then she is generous. Parker does not share her resources. Keily does not share her resources. If Keily is community-oriented and willing to learn, then she is generous. Parker helps others."
+  },
+  {
+    "id": 2,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Paola is artistically inclined.",
+    "reasoning": "fact1: Paola appreciates beauty.\nrule: If Paola appreciates beauty, then she values precision and enjoys manual work.\nconclusion: Paola enjoys manual work.\n\nfact1: Paola enjoys manual work.\nfact2: Paola values attention to detail.\nrule: If someone enjoys manual work and values attention to detail, then they can craft with their hands.\nconclusion: Paola crafts with her hands.\n\nfact1: Paola crafts with her hands.\nrule: Anyone who crafts with their hands has practical skills.\nconclusion: Paola has practical skills.\n\nfact1: Paola has practical skills.\nrule: Paola is either skilled in mathematics or has practical skills, but not both.\nconclusion: Paola is not skilled in mathematics.\n\nfact1: Paola is not skilled in mathematics.\nrule: Paola is either skilled in mathematics or artistically inclined, but surprisingly, she is actually both.\nconclusion: Paola is artistically inclined.\n\nTherefore, it is true that Paola is artistically inclined. The correct option is: A.",
+    "context": "Anyone who can solve problems and communicate effectively has practical skills. If Paola appreciates beauty, then she values precision and enjoys manual work. Paola appreciates beauty. Paola is either skilled in mathematics or has practical skills, but not both. If someone enjoys manual work and values attention to detail, then they can craft with their hands. Paola is either skilled in mathematics or artistically inclined, but surprisingly, she is actually both. Paola values attention to detail. Anyone who crafts with their hands has practical skills."
+  },
+  {
+    "id": 3,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Chelsea studies spiders or explores the outback (or both), then she makes groundbreaking discoveries.",
+    "reasoning": "fact1: Chelsea has artistic interests.\nrule: Chelsea either dedicates herself to science or has artistic interests, but not both.\nconclusion: Chelsea does not dedicate herself to science.\n\nfact1: Chelsea has novel ideas.\nfact2: Chelsea does not dedicate herself to science.\nrule: If Chelsea has novel ideas, then she either dedicates herself to science or pursues alternative careers (or both).\nconclusion: Chelsea pursues alternative careers.\n\nfact1: Chelsea pursues alternative careers.\nrule: Chelsea either pursues alternative careers or is passionate about research, but not both.\nconclusion: Chelsea is not passionate about research.\n\nfact1: Chelsea does not conduct fieldwork.\nrule: Chelsea conducts fieldwork or studies spiders.\nconclusion: Chelsea studies spiders.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that If Chelsea studies spiders or explores the outback (or both), then she makes groundbreaking discoveries. The correct option is: C.",
+    "context": "Anyone who specializes in arachnology will study spiders. Chelsea conducts fieldwork or studies spiders. Mikayla has novel ideas. Chelsea does not conduct fieldwork. Chelsea has novel ideas. If Chelsea has novel ideas, then she either dedicates herself to science or pursues alternative careers (or both). Chelsea has artistic interests. Chelsea either pursues alternative careers or is passionate about research, but not both. Chelsea either dedicates herself to science or has artistic interests, but not both."
+  },
+  {
+    "id": 4,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Hayden creates something unique.",
+    "reasoning": "fact1: Hayden is curious.\nfact2: Hayden does not take risks.\nrule: If Hayden is curious, then he either pursues innovation or takes risks (but not both).\nconclusion: Hayden pursues innovation.\n\nfact1: Hayden grows citrus.\nrule: For all humans, if they grow citrus or experiment with new varieties (or both), then they create something unique.\nconclusion: Hayden creates something unique.\n\nTherefore, it is true that Hayden creates something unique. The correct option is: A.",
+    "context": "Azaria does not take risks. Anyone who thinks outside the box or seeks new knowledge will pursue innovation. Ramon grows citrus. Kason develops new skills. Hayden does not take risks. If Hayden is curious, then he either pursues innovation or takes risks (but not both). Ramon is curious. For all humans, if they grow citrus or experiment with new varieties (or both), then they create something unique. Hayden is curious. Hayden grows citrus."
+  },
+  {
+    "id": 5,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Tripp is a non-varsity athlete.",
+    "reasoning": "fact1: Tripp participates in extracurricular activities.\nrule: If Tripp participates in extracurricular activities, then he is a club member.\nconclusion: Tripp is a club member.\n\nfact1: Tripp is a club member.\nrule: Tripp is either a club member or a varsity athlete, but not both.\nconclusion: Tripp is not a varsity athlete.\n\nfact1: Tripp is not a varsity athlete.\nrule: For every human, they are either a varsity athlete or a non-varsity athlete, but not both.\nconclusion: Tripp is a non-varsity athlete.\n\nTherefore, it is true that Tripp is a non-varsity athlete. The correct option is: A.",
+    "context": "Tripp participates in extracurricular activities. Aurelio participates in extracurricular activities. Tripp is either a club member or a varsity athlete, but not both. If Tripp participates in extracurricular activities, then he is a club member. For every human, they are either a varsity athlete or a non-varsity athlete, but not both. Tripp either plays sports or is a club member."
+  },
+  {
+    "id": 6,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jayden brings joy to others through his baking.",
+    "reasoning": "fact1: Jayden takes pride in his work.\nrule: If Jayden takes pride in his work, then he uses quality ingredients.\nconclusion: Jayden uses quality ingredients.\n\nfact1: Jayden uses quality ingredients.\nrule: Anyone who uses quality ingredients or adds a personal touch can bake with love.\nconclusion: Jayden bakes with love.\n\nfact1: Jayden bakes with love.\nfact2: Jayden does not create masterpieces.\nrule: If Jayden bakes with love, then he can either create masterpieces or bring joy to others, but not both.\nconclusion: Jayden brings joy to others through his baking.\n\nTherefore, it is true that Jayden brings joy to others through his baking. The correct option is: A.",
+    "context": "Anyone who uses quality ingredients or adds a personal touch can bake with love. If Jayden follows a family recipe or puts his heart into his work, then he uses quality ingredients. If Jayden takes pride in his work, then he uses quality ingredients. If Edwin takes pride in his work, then he uses quality ingredients. If Edwin cares about his customers, then he will add a personal touch. If Yara bakes with love, then he can either create masterpieces or bring joy to others, but not both. Jayden does not create masterpieces. Jayden takes pride in his work. If Jayden bakes with love, then he can either create masterpieces or bring joy to others, but not both."
+  },
+  {
+    "id": 7,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Brock is culturally conservative.",
+    "reasoning": "fact1: Brock embraces global citizenship.\nrule: Brock either values tradition or embraces global citizenship, but not both.\nconclusion: Brock does not value tradition.\n\nfact1: Brock does not value tradition.\nrule: Brock either values tradition or is open to new experiences, but not both.\nconclusion: Brock is open to new experiences.\n\nfact1: Brock is open to new experiences.\nrule: Anyone who is open to new experiences is culturally adventurous.\nconclusion: Brock is culturally adventurous.\n\nfact1: Brock is culturally adventurous.\nrule: Brock is either culturally adventurous or culturally conservative, but not both.\nconclusion: Brock is not culturally conservative.\n\nTherefore, it is false that Brock is culturally conservative. The correct option is: B.",
+    "context": "Everyone who appreciates culture either values tradition or embraces change. Brock is either culturally adventurous or culturally conservative, but not both. Asa either values tradition or is open to new experiences, but not both. Brock either values tradition or embraces global citizenship, but not both. Brock either values tradition or is open to new experiences, but not both. Brock embraces global citizenship. Asa either values tradition or embraces global citizenship, but not both. Asa embraces global citizenship. Anyone who is open to new experiences is culturally adventurous."
+  },
+  {
+    "id": 8,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Halo does not help the orchard thrive.",
+    "reasoning": "fact1: Halo has good vision.\nfact2: Halo does not detect sweet smells.\nrule: If Halo has good vision, then she either navigates through blossoms or detects sweet smells, but not both.\nconclusion: Halo navigates through blossoms.\n\nfact1: Halo navigates through blossoms.\nrule: Halo either navigates through blossoms or transfers pollen efficiently, but not both.\nconclusion: Halo does not transfer pollen efficiently.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Halo does not help the orchard thrive. The correct option is: C.",
+    "context": "Halo does not detect sweet smells. If Halo has strong wings, then she can find nectar and navigate through blossoms. Halo has good vision. If Archer has good vision, then she either navigates through blossoms or detects sweet smells, but not both. Halo either navigates through blossoms or transfers pollen efficiently, but not both. If Halo has a long proboscis or flies quickly, then she can pollinate flowers. Every fly that visits multiple trees either aids in cross-pollination or transfers pollen efficiently (or both). If Halo has good vision, then she either navigates through blossoms or detects sweet smells, but not both."
+  },
+  {
+    "id": 9,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ivaan creates viral content.",
+    "reasoning": "fact1: Ivaan does not produce innovative work.\nrule: Ivaan produces innovative work or earns critical acclaim.\nconclusion: Ivaan earns critical acclaim.\n\nfact1: Ivaan experiments with techniques.\nfact2: Ivaan does not add authenticity to his storytelling.\nrule: Anyone who experiments with techniques either adds authenticity to their storytelling or has an unconventional approach.\nconclusion: Ivaan has an unconventional approach.\n\nfact1: Ivaan has an unconventional approach.\nfact2: Ivaan earns critical acclaim.\nrule: If Ivaan has an unconventional approach, then he can either create viral content or earn critical acclaim, but not both.\nconclusion: Ivaan does not create viral content.\n\nTherefore, it is false that Ivaan creates viral content. The correct option is: B.",
+    "context": "Ivaan does not add authenticity to his storytelling. Anyone who experiments with techniques either adds authenticity to their storytelling or has an unconventional approach. Ivaan produces innovative work or earns critical acclaim. Ivaan experiments with techniques. If Sarai has an unconventional approach, then he can either create viral content or earn critical acclaim, but not both. Ivaan does not produce innovative work. If Ivaan has an unconventional approach, then he can either create viral content or earn critical acclaim, but not both. Giovanna does not produce innovative work. Giovanna does not add authenticity to his storytelling. If Ivaan is spontaneous, then he is either unconventional or a creative thinker, but not both."
+  },
+  {
+    "id": 10,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Bryson does not face financial ruin.",
+    "reasoning": "fact1: Bryson does not think before acting.\nrule: For Bryson, he either thinks before acting or acts impulsively, but not both.\nconclusion: Bryson acts impulsively.\n\nfact1: Bryson acts impulsively.\nrule: Anyone who acts impulsively will make reckless decisions.\nconclusion: Bryson makes reckless decisions.\n\nfact1: Bryson makes reckless decisions.\nrule: If Bryson makes reckless decisions, then he will face financial ruin.\nconclusion: Bryson faces financial ruin.\n\nTherefore, it is false that Bryson does not face financial ruin. The correct option is: B.",
+    "context": "If Bryson has charisma and acts impulsively, then he ignores the consequences of his actions. Anyone who acts impulsively will make reckless decisions. For Bryson, he either thinks before acting or acts impulsively, but not both. Lewis does not think before acting. Bryson does not think before acting. If Bryson makes reckless decisions, then he will face financial ruin."
+  },
+  {
+    "id": 11,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Alondra either influenced Christian theology or attended historic councils (or both).",
+    "reasoning": "fact1: Alondra studied classics.\nfact2: Alondra authored biographies.\nrule: If Alondra studied classics, then she either translated ancient texts or authored biographies, but not both.\nconclusion: Alondra did not translate ancient texts.\n\nfact1: Alondra was a scholar.\nfact2: Alondra did not translate ancient texts.\nrule: If Alondra was a scholar, then she either translated ancient texts or wrote doctrinal treatises, but not both.\nconclusion: Alondra wrote doctrinal treatises.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Alondra either influenced Christian theology or attended historic councils (or both). The correct option is: C.",
+    "context": "If Alondra studied classics, then she either translated ancient texts or authored biographies, but not both. Alondra studied classics. Alondra authored biographies. If Alondra was a scholar, then she either translated ancient texts or wrote doctrinal treatises, but not both. If Leroy either wrote doctrinal treatises or engaged in theological debates (but not both), then she attended historic councils. Alondra was a scholar. Hugo authored biographies. Leroy studied classics. If Alondra was influential and had strong convictions, then she wrote doctrinal treatises."
+  },
+  {
+    "id": 12,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Gabriella's patients are embarrassed about their enuresis.",
+    "reasoning": "fact1: Gabriella experiences symptoms.\nfact2: Gabriella changes her daily habits.\nrule: If Gabriella's patients experience symptoms, then they either change their daily habits or seek medical help, but not both.\nconclusion: Gabriella is not open about her condition and also does not seek medical help for her enuresis.\n\nfact1: Gabriella is not open about her condition and also does not seek medical help for her enuresis.\nrule: For Gabriella's patients, they either seek medical help for their enuresis or are open about it, but not both.\nconclusion: Gabriella's patients are open about their enuresis.\n\nfact1: Gabriella's patients are open about their enuresis.\nrule: Either Gabriella's patients are open about their enuresis or they are embarrassed about it, but not both.\nconclusion: Gabriella's patients are not embarrassed about their enuresis.\n\nTherefore, it is false that Gabriella's patients are embarrassed about their enuresis. The correct option is: B.",
+    "context": "If Gabriella's patients experience symptoms, then they either change their daily habits or seek medical help, but not both. For Gabriella's patients, they either seek medical help for their enuresis or are open about it, but not both. For James's patients, they either seek medical help for their enuresis or are open about it, but not both. James experiences symptoms. If Gabriella's patients either share their personal struggles or discuss treatment options (but not both), then they are open about their condition. Gabriella changes her daily habits. Either Mckenna's patients are open about their enuresis or they are embarrassed about it, but not both. Gabriella experiences symptoms. Either Gabriella's patients are open about their enuresis or they are embarrassed about it, but not both."
+  },
+  {
+    "id": 13,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Maisy is a renowned expert.",
+    "reasoning": "fact1: Maisy does not hold public office.\nrule: Maisy either holds public office or has a PhD, but not both.\nconclusion: Maisy has a PhD.\n\nfact1: Maisy has a PhD.\nfact2: Maisy is clinically practiced.\nrule: If Maisy has a PhD, then she is either clinically practiced or an experienced mother (but not both).\nconclusion: Maisy is not an experienced mother.\n\nfact1: Maisy is passionate about discovery.\nrule: If Maisy is passionate about discovery, then she is a dedicated researcher.\nconclusion: Maisy is a dedicated researcher.\n\nfact1: Maisy is not an experienced mother.\nfact2: Maisy is a dedicated researcher.\nrule: If Maisy is either an experienced mother or a dedicated researcher (but not both), then she is a renowned expert.\nconclusion: Maisy is a renowned expert.\n\nTherefore, it is true that Maisy is a renowned expert. The correct option is: A.",
+    "context": "Marvin is passionate about discovery. If Rosalina is either an experienced mother or a dedicated researcher (but not both), then she is a renowned expert. If Maisy has a PhD, then she is either clinically practiced or an experienced mother (but not both). Maisy either holds public office or has a PhD, but not both. Amina does not hold public office. Maisy is clinically practiced. Amina is clinically practiced. Maisy does not hold public office. If Amina has a PhD, then she is either clinically practiced or an experienced mother (but not both). If Maisy is either an experienced mother or a dedicated researcher (but not both), then she is a renowned expert. If Maisy is passionate about discovery, then she is a dedicated researcher. If someone has curiosity and conducts experiments, then they can be a dedicated researcher. Maisy is passionate about discovery. If Marvin is passionate about discovery, then she is a dedicated researcher."
+  },
+  {
+    "id": 14,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Brooks finds artistic expression.",
+    "reasoning": "fact1: Brooks lives abroad.\nfact2: Brooks does not discover new passions.\nrule: Everyone who lives abroad either discovers new passions or follows established routines (or both).\nconclusion: Brooks follows established routines.\n\nfact1: Brooks follows established routines.\nrule: Brooks either follows established routines or tries new experiences, but not both.\nconclusion: Brooks does not try new experiences.\n\nfact1: Brooks does not try new experiences.\nfact2: Brooks ventures off the beaten path.\nrule: If Brooks either tries new experiences or ventures off the beaten path (but not both), then he explores new places.\nconclusion: Brooks explores new places.\n\nfact1: Brooks pursues academic interests.\nrule: Brooks either pursues academic interests or immerses himself in local culture, but not both.\nconclusion: Brooks does not immerse himself in local culture.\n\nfact1: Brooks explores new places.\nfact2: Brooks does not immerse himself in local culture.\nrule: If Brooks either explores new places or immerses himself in local culture (but not both), then he finds artistic expression.\nconclusion: Brooks finds artistic expression.\n\nTherefore, it is true that Brooks finds artistic expression. The correct option is: A.",
+    "context": "Kingsley either follows established routines or tries new experiences, but not both. Brooks does not discover new passions. If Brooks values diversity and seeks community, then he immerses himself in local culture. Everyone who lives abroad either discovers new passions or follows established routines (or both). Brooks ventures off the beaten path. Kingsley ventures off the beaten path. If Kingsley either tries new experiences or ventures off the beaten path (but not both), then he explores new places. Kingsley either pursues academic interests or immerses himself in local culture, but not both. If Brooks either visits historical sites or meets new people (but not both), then he tends to explore new places. If Brooks either explores new places or immerses himself in local culture (but not both), then he finds artistic expression. Brooks pursues academic interests. If Brooks either tries new experiences or ventures off the beaten path (but not both), then he explores new places. Kingsley lives abroad. Brooks either follows established routines or tries new experiences, but not both. If Brooks either attends workshops or learns new skills (but not both), then he tries new experiences. Kingsley does not discover new passions. Brooks either pursues academic interests or immerses himself in local culture, but not both. Brooks lives abroad."
+  },
+  {
+    "id": 15,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Stephanie is not admired by her peers.",
+    "reasoning": "fact1: Stephanie has a strong network.\nfact2: Stephanie has exceptional talent.\nrule: If Stephanie has a strong network, then she either holds a prominent position or has exceptional talent (but not both).\nconclusion: Stephanie does not hold a prominent position.\n\nfact1: Stephanie possesses refinement.\nfact2: Stephanie does not hold a prominent position.\nrule: Everyone who possesses refinement either holds a prominent position or is accomplished professionally (or both).\nconclusion: Stephanie is accomplished professionally.\n\nfact1: Stephanie is cultivated.\nfact2: Stephanie is accomplished professionally.\nrule: If Stephanie is cultivated, then she is either accomplished professionally or well-educated, but not both.\nconclusion: Stephanie is not well-educated.\n\nfact1: Stephanie serves others altruistically.\nrule: If someone serves others altruistically, then they may not necessarily be respected by the community, and vice versa.\nconclusion: Stephanie is not respected by the community.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Stephanie is not admired by her peers. The correct option is: C.",
+    "context": "If Stephanie is cultivated, then she is either accomplished professionally or well-educated, but not both. Stephanie has a strong network. Everyone who possesses refinement either holds a prominent position or is accomplished professionally (or both). If Vada is cultivated, then she is either accomplished professionally or well-educated, but not both. Vada has a strong network. If Stephanie has a strong network, then she either holds a prominent position or has exceptional talent (but not both). Stephanie serves others altruistically. Stephanie has exceptional talent. Stephanie is cultivated. Vada possesses refinement. If someone serves others altruistically, then they may not necessarily be respected by the community, and vice versa. Maci is cultivated. Anyone who attends elite schools or develops classical skills is well-educated. Stephanie possesses refinement."
+  },
+  {
+    "id": 16,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yosef sparks positive change.",
+    "reasoning": "fact1: Yosef is a leader.\nfact2: Yosef is strategic.\nrule: If Yosef is a leader, then he either exhibits courage or is strategic, but not both.\nconclusion: Yosef does not exhibit courage.\n\nfact1: Yosef has empathy.\nrule: If Yosef has empathy, then he will inspire others.\nconclusion: Yosef inspires others.\n\nfact1: Yosef is compassionate.\nfact2: Yosef inspires others.\nrule: If Yosef is compassionate, then he either shows mercy or inspires others, but not both.\nconclusion: Yosef does not show mercy.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Yosef sparks positive change. The correct option is: C.",
+    "context": "Yosef is a leader. If Timothy is compassionate, then he either shows mercy or inspires others, but not both. If Micah has empathy, then he will inspire others. Aryan is a leader. If Micah shows mercy, then he can either gain the respect of others or spark positive change, but not both. Yosef stands upright or exhibits courage. Yosef is compassionate. If Timothy is a leader, then he either exhibits courage or is strategic, but not both. If Yosef is a leader, then he either exhibits courage or is strategic, but not both. Micah is compassionate. Yosef has empathy. Timothy does not demonstrate integrity. Yosef is strategic. Timothy is strategic. If Yosef has empathy, then he will inspire others. If Micah either demonstrates integrity or exhibits courage (but not both), then he gains the respect of others. If Yosef is compassionate, then he either shows mercy or inspires others, but not both. If Yosef defies expectations, then he either gains the respect of others or creates a positive impact (or both)."
+  },
+  {
+    "id": 17,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ariyah does not inspire others.",
+    "reasoning": "fact1: Ariyah does not pursue her passions.\nrule: Everyone pursues their passions or sets goals.\nconclusion: Ariyah sets goals.\n\nfact1: Ariyah sets goals.\nrule: If Ariyah sets goals, then she will stay focused.\nconclusion: Ariyah stays focused.\n\nfact1: Ariyah perseveres through hardship.\nfact2: Ariyah stays focused.\nrule: Anyone who perseveres through hardship or stays focused can achieve success.\nconclusion: Ariyah achieves success.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Ariyah does not inspire others. The correct option is: C.",
+    "context": "Ariyah does not pursue her passions. If Ariyah faces adversity, then she either stays focused or finds motivation. If Ariyah sets goals, then she will stay focused. Alaina does not pursue her passions. If Alaina is resilient, then she will achieve success and inspire others. Everyone pursues their passions or sets goals. Ariyah perseveres through hardship. Chanel is not resilient. If someone identifies their strengths and visualizes outcomes, then they can set goals. Anyone who perseveres through hardship or stays focused can achieve success."
+  },
+  {
+    "id": 18,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Ivanna lacks a sense of humor.",
+    "reasoning": "fact1: Ivanna is a circus performer.\nfact2: Ivanna rides unicycles.\nrule: If Ivanna is a circus performer, then she either juggles objects or rides unicycles (but not both).\nconclusion: Ivanna does not juggle objects.\n\nfact1: Ivanna walks a tightrope.\nfact2: Ivanna does not juggle objects.\nrule: If Ivanna either walks a tightrope or juggles objects (but not both), then she performs acrobatics.\nconclusion: Ivanna performs acrobatics.\n\nfact1: Ivanna is charismatic.\nfact2: Ivanna performs acrobatics.\nrule: Anyone who is charismatic and performs acrobatics can entertain audiences.\nconclusion: Ivanna entertains audiences.\n\nfact1: Ivanna entertains audiences.\nfact2: Ivanna does not think creatively.\nrule: Anyone who entertains audiences either has a sense of humor or thinks creatively (or both).\nconclusion: Ivanna has a sense of humor.\n\nfact1: Ivanna has a sense of humor.\nrule: For every human, either they have a sense of humor or they lack a sense of humor, but not both.\nconclusion: Ivanna has a sense of humor.\n\nTherefore, it is false that Ivanna lacks a sense of humor. The correct option is: B.",
+    "context": "Ivanna rides unicycles. Anyone who entertains audiences either has a sense of humor or thinks creatively (or both). Ivanna is a circus performer. Ivanna is charismatic. For every human, either they have a sense of humor or they lack a sense of humor, but not both. If Ivanna either walks a tightrope or juggles objects (but not both), then she performs acrobatics. Ivanna does not think creatively. Anyone who is charismatic and performs acrobatics can entertain audiences. Everyone who makes people laugh either entertains audiences or is spontaneous (or both). If Ivanna is a circus performer, then she either juggles objects or rides unicycles (but not both). Ivanna walks a tightrope."
+  },
+  {
+    "id": 19,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Chosen is aggressive towards his habitat.",
+    "reasoning": "fact1: Chosen is an alpha animal.\nfact2: Chosen defends his family.\nrule: If Chosen is an alpha animal, then he either defends his family or explores his territory, but not both.\nconclusion: Chosen does not explore his territory.\n\nfact1: Chosen does not explore his territory.\nrule: Chosen either explores his territory or is oriented towards preserving his habitat, but not both.\nconclusion: Chosen is oriented towards preserving his habitat.\n\nfact1: Chosen is oriented towards preserving his habitat.\nrule: Either Chosen is oriented towards preserving his habitat or he is aggressive towards his habitat, but not both.\nconclusion: Chosen is not aggressive towards his habitat.\n\nTherefore, it is false that Chosen is aggressive towards his habitat. The correct option is: B.",
+    "context": "Tate defends his family. Tate either explores his territory or is oriented towards preserving his habitat, but not both. Chosen defends his family. If Chosen is an alpha animal, then he either defends his family or explores his territory, but not both. Any animal that respects nature and conserves resources is oriented towards preserving its habitat. Chosen either explores his territory or is oriented towards preserving his habitat, but not both. Pet is an alpha animal. Either Chosen is oriented towards preserving his habitat or he is aggressive towards his habitat, but not both. If Iyla is an alpha animal, then he either defends his family or explores his territory, but not both. Chosen is an alpha animal."
+  },
+  {
+    "id": 20,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Josephine gains international recognition.",
+    "reasoning": "fact1: Josephine collaborates with her peers.\nrule: For Josephine, either she collaborates with peers or develops innovative theories, but these activities are not necessarily related.\nconclusion: Josephine does not develop innovative theories.\n\nfact1: Josephine investigates marine life.\nfact2: Josephine does not specialize in invertebrates.\nrule: If Josephine investigates marine life, then she either specializes in invertebrates or focuses on corals (or both).\nconclusion: Josephine focuses on corals.\n\nfact1: Josephine focuses on corals.\nrule: Josephine either focuses on corals or studies cycliophora, but not both.\nconclusion: Josephine does not study cycliophora.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Josephine gains international recognition. The correct option is: C.",
+    "context": "For Josephine, either she collaborates with peers or develops innovative theories, but these activities are not necessarily related. Josephine either focuses on corals or studies cycliophora, but not both. Royal either focuses on corals or studies cycliophora, but not both. Josephine collaborates with her peers. Josephine does not specialize in invertebrates. For Dayana, either she collaborates with peers or develops innovative theories, but these activities are not necessarily related. Josephine investigates marine life. If Josephine either explores deep-sea ecosystems or analyzes microscopic species (but not both), then she makes groundbreaking discoveries. If Josephine investigates marine life, then she either specializes in invertebrates or focuses on corals (or both)."
+  },
+  {
+    "id": 21,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jax is either someone who has a daily routine or someone who lives spontaneously, but not both.",
+    "reasoning": "fact1: Jax performs morning exercise.\nfact2: Jax eats balanced meals.\nrule: If Jax performs morning exercise, then he either prioritizes his health or eats balanced meals (but not both).\nconclusion: Jax does not prioritize his health.\n\nfact1: Jax pursues his passion.\nrule: If Jax pursues his passion, then he practices discipline and values self-care.\nconclusion: Jax practices discipline.\n\nfact1: Jax practices discipline.\nfact2: Jax does not follow schedules.\nrule: If Jax either practices discipline or follows schedules (but not both), then he has a daily routine.\nconclusion: Jax is someone who has a daily routine.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Jax is either someone who has a daily routine or someone who lives spontaneously, but not both. The correct option is: C.",
+    "context": "Jax pursues his passion. If Jax pursues his passion, then he practices discipline and values self-care. If Billie performs morning exercise, then he either prioritizes his health or eats balanced meals (but not both). Jax performs morning exercise. If Jax performs morning exercise, then he either prioritizes his health or eats balanced meals (but not both). Jax eats balanced meals. If Jax either practices discipline or follows schedules (but not both), then he has a daily routine. Jax does not follow schedules. If Jake pursues his passion, then he practices discipline and values self-care. Jake listens to his body. If Jax travels frequently or meets new people, then he can live spontaneously."
+  },
+  {
+    "id": 22,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dr. Noor does not earn international recognition.",
+    "reasoning": "fact1: Dr. Noor collaborates with experts.\nrule: Dr. Noor either collaborates with experts or develops innovative methods, but not both.\nconclusion: Dr. Noor does not develop innovative methods.\n\nfact1: Dr. Noor investigates novel compounds.\nfact2: Dr. Noor does not develop innovative methods.\nrule: If Dr. Noor either investigates novel compounds or develops innovative methods (but not both), then she makes a breakthrough discovery.\nconclusion: Dr. Noor makes a breakthrough discovery.\n\nfact1: Dr. Noor challenges conventional theories.\nrule: Dr. Noor either builds on existing knowledge or challenges conventional theories, but not both.\nconclusion: Dr. Noor does not build on existing knowledge.\n\nfact1: Dr. Noor does not build on existing knowledge.\nrule: Dr. Noor either builds on existing knowledge or conducts pioneering research, but not both.\nconclusion: Dr. Noor conducts pioneering research.\n\nfact1: Dr. Noor conducts pioneering research.\nfact2: Dr. Noor makes a breakthrough discovery.\nrule: If Dr. Noor conducts pioneering research, then she can either make a breakthrough discovery or earn international recognition, but not both.\nconclusion: Dr. Noor does not earn international recognition.\n\nTherefore, it is true that Dr. Noor does not earn international recognition. The correct option is: A.",
+    "context": "Dr. Noor investigates novel compounds. Every scientist who dedicates themselves to lifelong learning either makes breakthrough discoveries or produces meaningful contributions to their field. If Dr. Isaiah conducts pioneering research, then she can either make a breakthrough discovery or earn international recognition, but not both. If Dr. Isaiah either investigates novel compounds or develops innovative methods (but not both), then she makes a breakthrough discovery. Dr. Noor challenges conventional theories. Dr. Noor either builds on existing knowledge or conducts pioneering research, but not both. Dr. Noor either collaborates with experts or develops innovative methods, but not both. If Dr. Noor conducts pioneering research, then she can either make a breakthrough discovery or earn international recognition, but not both. Dr. Francisco either builds on existing knowledge or challenges conventional theories, but not both. Dr. Noor collaborates with experts. Dr. Isaiah challenges conventional theories. Dr. Ashton either collaborates with experts or develops innovative methods, but not both. Dr. Noor either builds on existing knowledge or challenges conventional theories, but not both. If Dr. Noor either investigates novel compounds or develops innovative methods (but not both), then she makes a breakthrough discovery."
+  },
+  {
+    "id": 23,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Bruce will uncover corruption.",
+    "reasoning": "fact1: Bruce does not build sources.\nrule: Bruce either builds sources or chases leads, but not both.\nconclusion: Bruce chases leads.\n\nfact1: Bruce chases leads.\nfact2: Bruce verifies facts.\nrule: Anyone who chases leads or verifies facts will ask tough questions.\nconclusion: Bruce asks tough questions.\n\nfact1: Bruce has integrity.\nrule: Anyone who has integrity or values accuracy will seek truth.\nconclusion: Bruce seeks truth.\n\nfact1: Bruce seeks truth.\nfact2: Bruce asks tough questions.\nrule: If Bruce seeks truth and asks tough questions, then he will uncover corruption.\nconclusion: Bruce will uncover corruption.\n\nTherefore, it is true that Bruce will uncover corruption. The correct option is: A.",
+    "context": "Bruce has integrity. Kylian has integrity. If Bruce has strong convictions or values fairness, then he will ask tough questions. If Bruce seeks truth and asks tough questions, then he will uncover corruption. Marvin either builds sources or chases leads, but not both. Anyone who chases leads or verifies facts will ask tough questions. Bruce either builds sources or chases leads, but not both. Bruce does not build sources. Marvin does not build sources. Kylian verifies facts. Anyone who has integrity or values accuracy will seek truth. Bruce verifies facts."
+  }
+]

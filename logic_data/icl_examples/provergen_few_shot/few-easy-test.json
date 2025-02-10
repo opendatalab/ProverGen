@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Pandabear does not win matches.",
+    "reasoning": "fact1: Pandabear is a professional gamer.\nfact2: Pandabear has quick reflexes.\nrule: If Pandabear is a professional gamer, then he is either quick reflexed or has good aim, but not both.\nconclusion: Pandabear does not have good aim.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Pandabear does not win matches. The correct option is: C.",
+    "context": "If Pandabear practices regularly, then he is either skilled at studying game mechanics or has good aim, but not both. Pandabear is a professional gamer. If Pandabear is a professional gamer, then he is either quick reflexed or has good aim, but not both. Pandabear has quick reflexes. Saige is a professional gamer. Saige has quick reflexes."
+  },
+  {
+    "id": 1,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Doll does not cause trouble.",
+    "reasoning": "fact1: Doll looks delicate.\nfact2: Doll does not have quirky behavior.\nrule: If Doll looks delicate or has quirky behavior, then she can bring joy.\nconclusion: Doll brings joy.\n\nfact1: Doll has a fractious personality.\nfact2: Doll brings joy.\nrule: If Doll has a fractious personality, then she either causes trouble or brings joy, but not both.\nconclusion: Doll does not cause trouble.\n\nTherefore, it is true that Doll does not cause trouble. The correct option is: A.",
+    "context": "Doll does not have quirky behavior. If Doll looks delicate or has quirky behavior, then she can bring joy. If Dennis looks delicate or has quirky behavior, then she can bring joy. If Doll has a fractious personality, then she either causes trouble or brings joy, but not both. Doll looks delicate. Doll has a fractious personality. Kian looks delicate."
+  },
+  {
+    "id": 2,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Araya does not inspire others.",
+    "reasoning": "fact1: Araya has a unique style.\nfact2: Araya performs with passion.\nrule: Anyone who has a unique style or performs with passion can achieve recognition.\nconclusion: Araya achieves recognition.\n\nfact1: Araya is talented.\nfact2: Araya achieves recognition.\nrule: If Araya is talented, then she can either achieve recognition or inspire others, but not both.\nconclusion: Araya does not inspire others.\n\nTherefore, it is true that Araya does not inspire others. The correct option is: A.",
+    "context": "Araya has a unique style. Anyone who has a unique style or performs with passion can achieve recognition. If Emanuel is talented, then she can either achieve recognition or inspire others, but not both. If Araya is innovative, then she can either achieve recognition or pursue perfection, but not both. Bradley has a unique style. Araya is talented. If Araya is talented, then she can either achieve recognition or inspire others, but not both. Emanuel performs with passion. Araya performs with passion."
+  },
+  {
+    "id": 3,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Livia inspires new researchers.",
+    "reasoning": "fact1: Livia studies terminology.\nfact2: Livia does not gain international recognition.\nrule: If Livia studies terminology, then she can either gain international recognition or inspire new researchers, but not both.\nconclusion: Livia inspires new researchers.\n\nTherefore, it is true that Livia inspires new researchers. The correct option is: A.",
+    "context": "If Ariella studies terminology, then she can either gain international recognition or inspire new researchers, but not both. If Livia studies terminology, then she can either gain international recognition or inspire new researchers, but not both. Mabel does not gain international recognition. Livia studies terminology. Livia does not gain international recognition."
+  },
+  {
+    "id": 4,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Dr. Rohan does not develop safer treatments.",
+    "reasoning": "According to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Dr. Rohan does not develop safer treatments. The correct option is: C.",
+    "context": ""
+  },
+  {
+    "id": 5,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Kristian does not use his platform for good.",
+    "reasoning": "fact1: Kristian is influential.\nrule: If Kristian is charismatic or influential, then he uses his platform for good.\nconclusion: Kristian uses his platform for good.\n\nTherefore, it is false that Kristian does not use his platform for good. The correct option is: B.",
+    "context": "If Kristian is charismatic or influential, then he uses his platform for good. Kristian is influential."
+  },
+  {
+    "id": 6,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Kolton does not contribute to conservation efforts.",
+    "reasoning": "fact1: Kolton explores deserts.\nfact2: Kolton does not analyze unique compounds.\nrule: If Kolton explores deserts or analyzes unique compounds, then he studies medicinal plants.\nconclusion: Kolton studies medicinal plants.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Kolton does not contribute to conservation efforts. The correct option is: C.",
+    "context": "Kolton explores deserts. Kolton does not analyze unique compounds. Kiddo explores deserts. Braden does not analyze unique compounds. If Kolton explores deserts or analyzes unique compounds, then he studies medicinal plants. Kiddo either studies medicinal plants or contributes to conservation efforts (or both). If Kolton either classifies rare species or researches indigenous uses (but not both), then he studies medicinal plants."
+  },
+  {
+    "id": 7,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Nina is not an unconventional thinker.",
+    "reasoning": "fact1: Nina is a conventional thinker.\nrule: Nina is either a conventional thinker or an unconventional thinker, but not both.\nconclusion: Nina is not an unconventional thinker.\n\nTherefore, it is true that Nina is not an unconventional thinker. The correct option is: A.",
+    "context": "Nina is either a conventional thinker or an unconventional thinker, but not both. Nina is a conventional thinker. Aurelio is either a conventional thinker or an unconventional thinker, but not both."
+  },
+  {
+    "id": 8,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Yehuda does not have a benign appearance.",
+    "reasoning": "fact1: Yehuda does not have authority.\nrule: Yehuda has authority or a fearsome appearance.\nconclusion: Yehuda has a fearsome appearance.\n\nfact1: Yehuda has a fearsome appearance.\nrule: Yehuda either has a fearsome appearance or a benign appearance, but not both.\nconclusion: Yehuda does not have a benign appearance.\n\nTherefore, it is true that Yehuda does not have a benign appearance. The correct option is: A.",
+    "context": "Yehuda does not have authority. Yehuda either has a fearsome appearance or a benign appearance, but not both. If Yehuda has an intense gaze or speaks in low tones, then he has a fearsome appearance. Luv does not have authority. Lover has authority or a fearsome appearance. Yehuda has authority or a fearsome appearance."
+  },
+  {
+    "id": 9,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Boy can fly.",
+    "reasoning": "fact1: Boy has feathers.\nrule: Boy either has feathers or wings, but it's not necessary for him to have both.\nconclusion: Boy does not have wings.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Boy can fly. The correct option is: C.",
+    "context": "Boy either has feathers or wings, but it's not necessary for him to have both. Boy has feathers. Asa has feathers."
+  },
+  {
+    "id": 10,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jamison does not contribute to antivenom development.",
+    "reasoning": "fact1: Jamison is an expert on venomous snakes.\nfact2: Jamison does not handle snakes gently.\nrule: For all herpetologists, if someone is an expert on venomous snakes, then they either handle snakes gently or contribute to antivenom development (or both).\nconclusion: Jamison contributes to antivenom development.\n\nTherefore, it is false that Jamison does not contribute to antivenom development. The correct option is: B.",
+    "context": "For all herpetologists, if someone is an expert on venomous snakes, then they either handle snakes gently or contribute to antivenom development (or both). Jamison does not handle snakes gently. Dorian is an expert on venomous snakes. Jamison is an expert on venomous snakes."
+  },
+  {
+    "id": 11,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Maci advances medical knowledge.",
+    "reasoning": "fact1: Maci is a skilled surgeon.\nfact2: Maci restores health to her patients.\nrule: If Maci is a skilled surgeon, then she can either restore health to her patients or advance medical knowledge, but not both.\nconclusion: Maci does not advance medical knowledge.\n\nTherefore, it is false that Maci advances medical knowledge. The correct option is: B.",
+    "context": "Maci restores health to her patients. Ivan is a skilled surgeon. Maci is a skilled surgeon. If Maci is a skilled surgeon, then she can either restore health to her patients or advance medical knowledge, but not both. If Sadie is a skilled surgeon, then she can either restore health to her patients or advance medical knowledge, but not both."
+  },
+  {
+    "id": 12,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Emersyn becomes a leading expert in the field.",
+    "reasoning": "According to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Emersyn becomes a leading expert in the field. The correct option is: C.",
+    "context": "If Mavis studies anatomy and masters plastination, then she becomes a leading expert in the field."
+  },
+  {
+    "id": 13,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Zakai is an expert knot-tier.",
+    "reasoning": "fact1: Zakai stays calm under pressure.\nfact2: Zakai does not think on his feet.\nrule: If Zakai either stays calm under pressure or thinks on his feet (but not both), then he is reliable in emergencies.\nconclusion: Zakai is reliable in emergencies.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Zakai is an expert knot-tier. The correct option is: C.",
+    "context": "If Miguel either stays calm under pressure or thinks on his feet (but not both), then he is reliable in emergencies. Captain does not think on his feet. Zakai stays calm under pressure. If Zakai either stays calm under pressure or thinks on his feet (but not both), then he is reliable in emergencies. Zakai does not think on his feet."
+  },
+  {
+    "id": 14,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Munchkin does not possess deep wisdom.",
+    "reasoning": "fact1: Munchkin has a meditative nature.\nrule: Munchkin either has a meditative nature or possesses divine energy, but not both.\nconclusion: Munchkin does not possess divine energy.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Munchkin does not possess deep wisdom. The correct option is: C.",
+    "context": "Munchkin either has a meditative nature or possesses divine energy, but not both. Munchkin has a meditative nature. If Munchkin is an enigmatic cat, then she either possesses divine energy or has intuitive insight, but not both. Waverly either has a meditative nature or possesses divine energy, but not both. Alena has a meditative nature."
+  },
+  {
+    "id": 15,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Robert brings people together.",
+    "reasoning": "According to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Robert brings people together. The correct option is: C.",
+    "context": "If Everything loves flummery or enjoys hospitality (or both), then he brings people together."
+  },
+  {
+    "id": 16,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Grady is not skilled in repairs.",
+    "reasoning": "fact1: Grady has a sailing license.\nfact2: Grady is familiar with weather patterns.\nrule: If Grady has a sailing license, then he is either familiar with weather patterns or knows nautical safety procedures (but not both).\nconclusion: Grady does not know nautical safety procedures.\n\nfact1: Grady is an experienced sailor.\nfact2: Grady does not know nautical safety procedures.\nrule: For all humans, if someone is an experienced sailor, then they are either skilled in repairs or know nautical safety procedures (or both).\nconclusion: Grady is skilled in repairs.\n\nTherefore, it is false that Grady is not skilled in repairs. The correct option is: B.",
+    "context": "If Grady reads nautical charts or understands tides, then he knows nautical safety procedures. Grady is an experienced sailor. Grady has a sailing license. Grady is familiar with weather patterns. If Grady has a sailing license, then he is either familiar with weather patterns or knows nautical safety procedures (but not both). Emberlynn is an experienced sailor. Emberlynn has a sailing license. If Emberlynn has a sailing license, then he is either familiar with weather patterns or knows nautical safety procedures (but not both). For all humans, if someone is an experienced sailor, then they are either skilled in repairs or know nautical safety procedures (or both)."
+  },
+  {
+    "id": 17,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? If Matteo has high birth or exceptional abilities (or both), then he earns royal respect.",
+    "reasoning": "According to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that If Matteo has high birth or exceptional abilities (or both), then he earns royal respect. The correct option is: C.",
+    "context": ""
+  },
+  {
+    "id": 18,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Leila does not inspire others.",
+    "reasoning": "fact1: Leila is passionate.\nfact2: Leila does not promote social justice.\nrule: If Leila is passionate, then she either promotes social justice or challenges conventional norms, but not both.\nconclusion: Leila challenges conventional norms.\n\nfact1: Leila challenges conventional norms.\nfact2: Leila creates positive change.\nrule: If Leila challenges conventional norms, then she will inspire others and create positive change.\nconclusion: Leila inspires others.\n\nTherefore, it is false that Leila does not inspire others. The correct option is: B.",
+    "context": "Leila does not promote social justice. Leila is passionate. If Leila challenges conventional norms, then she will inspire others and create positive change. Leila creates positive change. If Leila is passionate, then she either promotes social justice or challenges conventional norms, but not both."
+  },
+  {
+    "id": 19,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Jazmin does not gain confidence.",
+    "reasoning": "fact1: Jazmin faces rejection.\nrule: Jazmin either faces rejection or receives recognition, but not both.\nconclusion: Jazmin does not receive recognition.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Jazmin does not gain confidence. The correct option is: C.",
+    "context": "Jazmin faces rejection. Emely faces rejection. Jazmin either faces rejection or receives recognition, but not both."
+  },
+  {
+    "id": 20,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "B",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Gianni fosters cultural exchange.",
+    "reasoning": "fact1: Gianni publishes groundbreaking research.\nrule: If Gianni publishes groundbreaking research, then he becomes an international expert.\nconclusion: Gianni becomes an international expert.\n\nfact1: Gianni speaks multiple languages.\nfact2: Gianni becomes an international expert.\nrule: If Gianni speaks multiple languages, then he can either become an international expert or foster cultural exchange, but not both.\nconclusion: Gianni does not foster cultural exchange.\n\nTherefore, it is false that Gianni fosters cultural exchange. The correct option is: B.",
+    "context": "If Gianni publishes groundbreaking research, then he becomes an international expert. Haven publishes groundbreaking research. Gianni publishes groundbreaking research. Gianni speaks multiple languages. If Clark publishes groundbreaking research, then he becomes an international expert. If Gianni speaks multiple languages, then he can either become an international expert or foster cultural exchange, but not both. Haven speaks multiple languages."
+  },
+  {
+    "id": 21,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Kayson does not gain knowledge.",
+    "reasoning": "fact1: Kayson joins book clubs.\nrule: For all humans, if they join book clubs, then they meet like-minded individuals and find a sense of community.\nconclusion: Kayson finds a sense of community.\n\nfact1: Kayson loves reading.\nfact2: Kayson finds a sense of community.\nrule: If Kayson loves reading, then he can either gain knowledge or find a sense of community, but not both.\nconclusion: Kayson does not gain knowledge.\n\nTherefore, it is true that Kayson does not gain knowledge. The correct option is: A.",
+    "context": "For all humans, if they join book clubs, then they meet like-minded individuals and find a sense of community. If Kayson loves reading, then he can either gain knowledge or find a sense of community, but not both. Kayson loves reading. Kayson joins book clubs."
+  },
+  {
+    "id": 22,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "A",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Augustus is a nature lover.",
+    "reasoning": "fact1: Augustus is a zoologist.\nrule: Augustus is either a zoologist or a botanist, but not both.\nconclusion: Augustus is not a botanist.\n\nfact1: Augustus is not a botanist.\nrule: Augustus is either a botanist or a nature lover (or both).\nconclusion: Augustus is a nature lover.\n\nTherefore, it is true that Augustus is a nature lover. The correct option is: A.",
+    "context": "Abram is a zoologist. Augustus is a zoologist. Abram is either a zoologist or a botanist, but not both. Augustus is either a zoologist or a botanist, but not both. Augustus is either a botanist or a nature lover (or both)."
+  },
+  {
+    "id": 23,
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Uncertain"
+    ],
+    "answer": "C",
+    "question": "Based on the above information, is the following statement true, false, or uncertain? Rocco does not earn public trust.",
+    "reasoning": "fact1: Rocco investigates corruption.\nfact2: Rocco is pursuing social justice.\nrule: If Rocco investigates corruption, then he is either pursuing social justice or committing to ethics (but not both).\nconclusion: Rocco does not commit to ethics.\n\nAccording to the context and the conclusions that have already been drawn, we can deduce that it is uncertain that Rocco does not earn public trust. The correct option is: C.",
+    "context": "If Scarlett commits to ethics, then he earns public trust. If Rocco investigates corruption, then he is either pursuing social justice or committing to ethics (but not both). Bryan is pursuing social justice. Rocco is pursuing social justice. Rocco investigates corruption."
+  }
+]

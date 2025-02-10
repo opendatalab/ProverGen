@@ -1,0 +1,4 @@
+anthropic==0.42.0
+nltk==3.9.1
+numpy==1.24.4
+openai==1.58.1
