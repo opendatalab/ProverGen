@@ -175,6 +175,8 @@ In addition to the data presented in the paper, we further evaluate the performa
 
 |Model Name|ProverQA-Easy|ProverQA-Medium|ProverQA-Hard|
 | -----------------------| -------| --------| -------|
+|GPT-4o CoT|94.20|79.40|50.00|
+|Claude-3.5-Sonnet CoT|95.20|83.60|56.40|
 |o1-preview-2024-09-12|89.80|78.80|66.20|
 |DeepSeek-R1|91.80|78.40|66.60|
 
