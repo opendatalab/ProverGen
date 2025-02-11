@@ -1,4 +1,0 @@
-s/get_clause(/get_topform(/g
-s/free_clause(/free_topform(/g
-
-

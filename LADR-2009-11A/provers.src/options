@@ -1,3 +1,0 @@
-#!/bin/csh
-
-awk '/Prover_options init_prover_options\(/,/\/\/ init_prover_options/' search.c | less

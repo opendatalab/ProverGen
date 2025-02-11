@@ -1,2 +1,0 @@
-s/.*define PROGRAM_DATE.*/#include "..\/PROGRAM_DATE.h"/
-

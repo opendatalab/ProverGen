@@ -1,3 +1,0 @@
-#!/bin/sh
-
-grep '^kept:' | sed -e 's/kept: * [0-9]* //' -e 's/\.  .*/./'
