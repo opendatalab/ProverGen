@@ -1,6 +1,15 @@
-# ProverGen
+<div align="center">
+<!-- <img style="width: 50%;" src="assets/head-image.png"> -->
+<!-- <h2 align="center"><img style="height: 40px;" src="https://github.com/opendatalab/LOKI/blob/27f9fa838ee344798e210ee00fa70ab1b32ef6ae/static/img/icons/loki.png"> $\LARGE\textbf{\textsf{{\color[rgb]{1.0, 0.7, 0.0}L}{\color[rgb]{1.0, 0.6, 0.0}O}{\color[rgb]{1.0, 0.5, 0.0}K}{\color[rgb]{1.0, 0.4, 0.0}I}}}{\color[rgb]{0,0,0}}$ 
+ A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</h2> -->
+ <h2 align="center">Large Language Models Meet Symbolic Provers for Logical Reasoning Evaluation</h2>
 
-This repository is the official implementation of ICLR 2025 paper: [Large Language Models Meet Symbolic Provers for Logical Reasoning Evaluation](https://openreview.net/forum?id=C25SgeXWjE).
+<a href="https://arxiv.org/abs/2502.06563" target="_blank"><img src="https://img.shields.io/badge/arXiv-ProverGen-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
+<a href="https://github.com/opendatalab/ProverGen" target="_blank"><img alt="Website" src="https://img.shields.io/badge/_GitHub-ProverGen-blue.svg" height="25" /></a>
+<a href='https://huggingface.co/datasets/opendatalab/ProverQA'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
+</div>
+
+# ProverGen
 
 <div style="text-align: center;">
     <img src="./framework.png" alt="The general framework of ProverGen" width="90%" />
@@ -8,16 +17,18 @@ This repository is the official implementation of ICLR 2025 paper: [Large Langua
 
 ## Table of Contents
 
-- [Installation](#installation)
-  - [Install all the required packages](#install-all-the-required-packages)
-  - [Install Prover9](#install-prover9)
-- [Generation](#generation)
-  - [Logic Skeleton Generation](#logic-skeleton-generation-)
-  - [Logic Skeleton Translation](#logic-skeleton-translation-)
-  - [FOL problem generation](#fol-problem-generation-)
-- [Evaluation](#evaluation-️)
-- [The Performance of Reasoning Models](#the-performance-of-reasoning-models)
-- [Citation](#citation)
+- [ProverGen](#provergen)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [Install all the required packages:](#install-all-the-required-packages)
+    - [Install Prover9](#install-prover9)
+  - [Generation](#generation)
+    - [Logic Skeleton Generation 🧭](#logic-skeleton-generation-)
+    - [Logic Skeleton Translation 📝](#logic-skeleton-translation-)
+    - [FOL Problem Generation 📚](#fol-problem-generation-)
+  - [Evaluation ⚖️](#evaluation-️)
+  - [The Performance of Reasoning Models](#the-performance-of-reasoning-models)
+  - [Citation](#citation)
 
 
 ## Installation
