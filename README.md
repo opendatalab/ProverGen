@@ -1,12 +1,9 @@
 <div align="center">
-<!-- <img style="width: 50%;" src="assets/head-image.png"> -->
-<!-- <h2 align="center"><img style="height: 40px;" src="https://github.com/opendatalab/LOKI/blob/27f9fa838ee344798e210ee00fa70ab1b32ef6ae/static/img/icons/loki.png"> $\LARGE\textbf{\textsf{{\color[rgb]{1.0, 0.7, 0.0}L}{\color[rgb]{1.0, 0.6, 0.0}O}{\color[rgb]{1.0, 0.5, 0.0}K}{\color[rgb]{1.0, 0.4, 0.0}I}}}{\color[rgb]{0,0,0}}$ 
- A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</h2> -->
  <h2 align="center">Large Language Models Meet Symbolic Provers for Logical Reasoning Evaluation</h2>
 
 <a href="https://arxiv.org/abs/2502.06563" target="_blank"><img src="https://img.shields.io/badge/arXiv-ProverGen-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href="https://github.com/opendatalab/ProverGen" target="_blank"><img alt="Website" src="https://img.shields.io/badge/_GitHub-ProverGen-blue.svg" height="25" /></a>
-<a href='https://opendatalab.com/maren/ProverQA'><img src='https://img.shields.io/badge/OpenDataLab-ProverQA-green' height="25"></a>
+<a href='https://openxlab.org.cn/datasets/OpenDataLab/ProverQA'><img src='https://img.shields.io/badge/OpenDataLab-ProverQA-green' height="25"></a>
 <a href='https://huggingface.co/datasets/opendatalab/ProverQA'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ProverQA-yellow' height="25"></a>
 </div>
 
